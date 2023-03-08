@@ -16,8 +16,10 @@ body {
 .bg-red {background-color: red;}
 .bg-green {background-color: green;}
 .bg-black {background-color: #1a1a1a;}
+.bg-white {background-color: #fffcfa;}
 .txt-white {color: #fffcfa}
 .txt-red {color: red}
+.txt-dec-lt {text-decoration-line: line-through;}
 .pos-abs {position: absolute;}
 .pos-rel {position: relative;}
 .pos-fix {position: fixed;}
@@ -25,23 +27,74 @@ body {
 
 /* header */
 .navbar {
-    padding: 70px;
+    height: 3.375rem;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     font-size: 13px;
     font-weight: 700;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+    z-index: 3;
 }
 
 .navbar img {
-    width: 9rem;
+    width: 8.875rem;
     height: 2rem;
 }
 
 /* main  */
 
+.main-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+}
 
+main .article-container {
+    margin-top: 120px;
+    width: 464px;
+    height: 670px;
+}
+main img {
+    width: 464px;
+    height: 670px;
+}
+
+.second-pic {
+    visibility: hidden;
+}
+
+.main-box:hover .second-pic {
+    visibility: visible;
+}
+
+.heart {
+    z-index: 2;
+    top: 20px;
+    right: 0;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.tags {
+    left: 0;
+    bottom: 3rem;
+}
+
+.article-info span {
+    margin-right: .5rem;
+}
+
+span.bg-green, span.bg-red {
+    font-weight: 700;
+    padding: 5px;
+    font-size: 14px;
+}
 
 /* footer */
 
