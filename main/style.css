@@ -4,9 +4,44 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* helpers */
+.flex {display: flex;}
+.bg-orange {background-color: #ff6900;}
+.bg-red {background-color: red;}
+.bg-green {background-color: green;}
+.bg-black {background-color: #1a1a1a;}
+.txt-white {color: #fffcfa}
+.txt-red {color: red}
+.pos-abs {position: absolute;}
+.pos-rel {position: relative;}
+.pos-fix {position: fixed;}
+
+
+/* header */
+.navbar {
+    padding: 70px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.5);
+}
+
+.navbar img {
+    width: 9rem;
+    height: 2rem;
+}
+
+/* main  */
 
 
 
-/* helpers */
+/* footer */
 
