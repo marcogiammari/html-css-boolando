@@ -64,11 +64,11 @@ header a:hover {
 }
 
 /* main  */
-
 .main-container {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
+    padding-bottom: 9rem;
 }
 
 main .article-container {
@@ -76,6 +76,7 @@ main .article-container {
     width: 464px;
     height: 670px;
 }
+
 main img {
     width: 464px;
     height: 670px;
@@ -117,7 +118,6 @@ span.bg-green, span.bg-red {
 }
 
 /* footer */
-
 footer {
     height: 5rem;
     position: fixed;
