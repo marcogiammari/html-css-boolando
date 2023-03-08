@@ -96,10 +96,13 @@ main img {
     right: 0;
     font-size: 2rem;
     padding: 1rem 1.5rem;
+    transition: 0.5s;
+    background: transparent;
 }
 
 .heart:hover {
     color: red;
+    transform: scale(2) translate(-24%, 11%);
 }
 
 .tags {
