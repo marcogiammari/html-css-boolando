@@ -10,6 +10,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.boxed {
+    width: 76%;
+    margin: auto;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    padding-right: 0.2rem;
+}
+
+a:hover {
+    text-decoration: underline #ff6900;
+    color: #ff6900;
+}
+
 /* helpers */
 .flex {display: flex;}
 .bg-orange {background-color: #ff6900;}
@@ -42,12 +58,16 @@ body {
     height: 2rem;
 }
 
+header a:hover {
+    text-decoration: underline #fffcfa;
+    color: black;
+}
+
 /* main  */
 
 .main-container {
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 76%;
     margin: auto;
 }
 
@@ -98,3 +118,18 @@ span.bg-green, span.bg-red {
 
 /* footer */
 
+footer {
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 1px solid #fffcfa;
+    }
+
+.footerbar {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
