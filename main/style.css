@@ -87,7 +87,7 @@ main img {
     visibility: hidden;
 }
 
-.main-box:hover .second-pic {
+.article-container:hover .second-pic {
     visibility: visible;
 }
 
